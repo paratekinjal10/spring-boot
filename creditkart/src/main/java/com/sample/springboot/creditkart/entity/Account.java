@@ -1,7 +1,19 @@
 package com.sample.springboot.creditkart.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import io.swagger.annotations.ApiModel;
+
+@Entity
+@Table(name = "t_account")
+@ApiModel(description = "All details about Customer's credit card Account. ")
 public class Account {
 
+    @Id
+    @GeneratedValue
     private long accountId;
     private long userId;
     private String bankName;
@@ -16,6 +28,16 @@ public class Account {
             String bankId, Double balance, Double credit) {
         super();
         this.accountId = accountId;
+        this.userId = userId;
+        this.bankName = bankName;
+        this.bankId = bankId;
+        this.balance = balance;
+        this.credit = credit;
+    }
+
+    public Account(long userId, String bankName, String bankId, Double balance,
+            Double credit) {
+        super();
         this.userId = userId;
         this.bankName = bankName;
         this.bankId = bankId;

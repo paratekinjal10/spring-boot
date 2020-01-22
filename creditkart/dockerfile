@@ -1,0 +1,5 @@
+FROM openjdk:8-alpine
+RUN mkdir /data
+ADD target/creditkart-0.0.1-SNAPSHOT /data
+EXPOSE 8080:8080
+CMD ["java", "-jar", "/data/creditkart-0.0.1-SNAPSHOT"]

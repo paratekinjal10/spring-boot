@@ -31,31 +31,31 @@ To run the application:
 ## UML Diagram
 * The CreditKart application have a Customer Entity and a Account Entity.
 * A Cutomer can have multiple Accounts.
-![UML Diagram](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/01UML.png)
+<kbd>![UML Diagram](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/01UML.png)
 
 ## Swagger
 Swagger is majorly used for API documentation. Following are the API Controllers used in the application:
-![Swagger](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/02Swagger.png)
+<kbd>![Swagger](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/02Swagger.png)
 ### Sample Account REST API
-![Swagger](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/03AccountRestController.png)
+<kbd>![Swagger](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/03AccountRestController.png)
 
 ## Table
 Customer table (t_customer) and Account table (t_account) is created on start-up
 ### Customer Table
-![Customer Table](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/04CustomeTable.png)
+<kbd>![Customer Table](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/04CustomeTable.png)
 ### Account Table
-![Account Table](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/05AccountTable.png)
+<kbd>![Account Table](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/05AccountTable.png)
 
 ## Postman Calls
 Following postman calls are used to verify and test the API's
 ### Get All Accounts Details
-![Get All Accounts Details](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/06GetAllAccountPostman.png)
+<kbd>![Get All Accounts Details](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/06GetAllAccountPostman.png)
 
 ### Get All Customers Details
-![Get All Customers](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/07GetAllCustomer.png)
+<kbd>![Get All Customers](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/07GetAllCustomer.png)
 
 ### Add a New Customer
-![New A Customer](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/08NewCustomer.png)
+<kbd>![New A Customer](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/08NewCustomer.png)
 
-### Delete a Customer09DeleteCustomer
-![Delete A Customer](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/09DeleteCustomer.png)
+### Delete a Customer
+<kbd>![Delete A Customer](https://github.com/upasana05ghosh/Spring-Boot-Project/blob/master/creditkart/Images/09DeleteCustomer.png)
